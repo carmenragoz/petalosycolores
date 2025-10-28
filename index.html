@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+	<title></title>
+</head>
+<body onclick="PlayAudio()">
+
+<header>
+	<div class="logo">
+		<img src="imagenes/logo.png">
+	</div>
+
+	<nav>
+		<a href="">Inicio</a>
+		<a href="catalogo.html">Catalogo</a>
+		<a href="Actividad.html">Cuenta</a>
+	</nav>
+</header>
+
+<h1>Bienvenidos</h1>
+<div class="primero">
+	<div class="uno">
+
+	<p>Bienvenidos, esta página se especializa en arreglos florales personalizados donde no solo podrás disfrutar de nuestros productos predeterminados si no que también podrás personalizar los tuyos a tu gusto y para la ocasión que desees. También contactos con servicio a domicilio, contactos en nuestras redes sociales o contactos para que puedas ver más de nuestros productos.
+
+    </p>
+    </div>
+
+</div>
+
+    <div class="video">
+<video width="500" height="300" poster="logo.png" controls>
+	<source src="video.mp4" type="video/mp4">
+</video>
+</div>
+
+
+<h2>Novedades</h2>
+<div class="segundo">
+	<div class="dos">
+	<p>Ven y descubre las novedades de nuestro catalogo que tenemos para ti, a tu gusto y comienza tu experiencia junto a nosotros tu floreria de confianza</p>
+    </div>
+
+    <div class="descuento">
+<img src="imagenes/planta.png">
+</div>
+	
+</div>
+
+<button><a href="catalogo.html">Ver</a></button>
+
+<audio id="musica" loop>
+	<source src="Musica/song.mp3" type="audio/mpeg">
+</audio>
+<script>
+	function PlayAudio(){
+		document.getElementById("musica").play();
+	}
+</script>
+
+<div class="ubicacion">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14783.1656857148!2d-101.02360143248859!3d22.133926925552558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842a98c4c76081bd%3A0xe0c7f2d9393e5505!2sGarita%20de%20Jalisco%2C%2078294%20San%20Luis%20Potos%C3%AD%2C%20S.L.P.!5e0!3m2!1ses-419!2smx!4v1760911307912!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+
+ width="400" 
+ height="300">
+</iframe>
+</div>
+
+<footer>
+		Correo: floreria.petalos.colores@gmail.com
+	<a href=""><i class="fa-brands fa-x-twitter"></i></a>
+	<a href=""><i class="fa-brands fa-youtube"></i></a>
+	<a href="/"><i class="fa-brands fa-instagram"></i></a>
+</footer>
+
+</body>
+</html>
