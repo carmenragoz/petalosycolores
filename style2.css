@@ -1,0 +1,86 @@
+header{
+	display: flex;
+	justify-content: space-between;
+	height: 70px;
+	background: #E7E5E3;
+	align-items: center;
+	padding: 10px;
+}
+
+.logo img{
+	height: 100px;
+	margin-top: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+a:hover{
+	color: #f191ab;
+}
+nav a{
+	padding-right: 70px;
+	font-family: Soul Billani;
+}
+h2{
+	font-family:Soul Billani ;
+}
+		.container {
+			background: white;
+			padding: 30px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+			width: 300px;
+			margin-top: 80px;
+			margin-left:480px;
+			text-align: center;
+
+		}
+		input {
+			width: 100%;
+			padding: 10px;
+			padding-right:1px;
+			padding-left: 6px;
+			margin-top: 10px;
+			margin-bottom: 15px;
+			font-family: Calibri;
+			font-size: 15px;
+		}
+		button {
+			width: 100%;
+			padding: 10px;
+			background: #E7E5E3;
+			color: bl;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			font-family: Calibri;
+			font-size: 15px;
+		}
+		button:hover {
+			background: #f191ab;
+		}
+		.toggle {
+			text-align: center;
+			font-family: Calibri;
+			margin-top: 15px;
+		}
+		.container a {
+			cursor: pointer;
+			font-family: Calibri;
+			font-size: 15px;
+			color: #f191ab;
+		}
+footer{
+	background: #E7E5E3;
+	font-family:Calibri;
+	padding: 10px;
+	margin-top: 80px;
+	display: flex;
+	justify-content: center;
+}
+footer a{
+	margin-left: 5px;
+}

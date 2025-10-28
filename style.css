@@ -1,0 +1,119 @@
+header{
+	display: flex;
+	justify-content: space-between;
+	height: 70px;
+	background: #E7E5E3;
+	align-items: center;
+	padding: 10px;
+
+}
+
+.logo img{
+	height: 100px;
+	margin-top: 15px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+a:hover{
+	color: #f191ab;
+}
+nav a{
+	padding-right: 70px;
+	font-family: Soul Billani;
+}
+
+h1{
+	text-align: center;
+	font-size: 70px;
+	font-family: Soul Billani;
+}
+footer{
+	background: #E7E5E3;
+	font-family:Calibri;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+}
+footer a{
+	margin-left: 5px;
+}
+
+.primero{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	margin-right: 200px;
+	
+}
+ img{
+	height: 200px;
+	margin-right: 380px;
+	margin-bottom: 10px;
+
+}
+.uno{
+	text-align: justify;
+	margin-left: 400px;
+	margin-top: -30px;
+	margin-right:200px;
+	font-size: 18px;
+	font-family: Calibri;
+	align-items: center;
+	justify-content: center;
+
+}
+.segundo{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	margin-top: -30px;
+}
+.dos{
+	text-align: justify;
+	margin-left: 350px;
+	margin-top: 1px;
+	margin-right: 20px;
+	font-size: 18px;
+	font-family: Calibri;
+}
+h2{
+	text-align: center;
+	font-size: 40px;
+	font-family: Soul Billani;
+	padding-bottom: 20px;
+}
+button{
+	text-align: center;
+	justify-items: center;
+	margin-left: 500px;
+	margin-bottom: 5px;
+}
+button a{
+	font-size: 15px;
+}
+button a:hover{
+	color: white;
+}
+button:hover{
+	background: #f191ab;
+
+}
+.descuento img{
+	height: 200px;
+	margin-right: 290px;
+	margin-bottom: 10px;
+	margin-top: -10px;
+}
+.ubicacion{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.video{
+	padding-left: 418px;
+}

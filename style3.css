@@ -1,0 +1,95 @@
+header{
+	display: flex;
+	justify-content: space-between;
+	height: 70px;
+	background: #E7E5E3;
+	align-items: center;
+	padding: 10px;
+}
+
+.logo img{
+	height: 100px;
+	margin-top: 15px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+a:hover{
+	color: #f191ab;
+}
+nav a{
+	padding-right: 70px;
+	font-family: Soul Billani;
+}
+.vertical{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+.vertical li{
+	display: block;
+	padding: 5px;
+	margin-bottom: 7px;
+}
+
+.vertical a{
+	color: #E6A4B4;
+	font-family: Overthink;
+	font-size: 25px;
+}
+.vertical a:hover{
+	color: #99627A ;
+}
+h1{
+	text-align: center;
+	font-family: Soul Billani;
+	font-size: 50px;
+}
+
+.container2{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: #445069;
+	margin-top: 20px;
+}
+.container2 img{
+	height: 230px;
+}
+
+figcaption{
+	font-family: Calibri;
+	color: black;
+	font-size: 18px;
+}
+button{
+	margin-top: 10px;
+}
+button:hover{
+	background: #f191ab ;
+}
+button a{
+	font-family:Calibri;
+	font-size: 15px;
+}
+button a:hover{
+	color: white;
+
+}
+
+
+footer{
+	background: #E7E5E3;
+	font-family:Calibri;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+}
+footer a{
+	margin-left: 5px;
+}
